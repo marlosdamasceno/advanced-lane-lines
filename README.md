@@ -8,6 +8,7 @@
 [image6]: ./output_images/combined.png "Combined"
 [image7]: ./output_images/points_bird_eyes.png "Points of bird-eye view"
 [image8]: ./output_images/bird_eyes_lines_view.png "Bird-eye view"
+[image9]: ./output_images/ScreenPrint.png "Bird-eye view"
 
 
 ## Advanced Lane Finding
@@ -105,6 +106,7 @@ Generally, the curvature was about 1k for the curves and bigger than that for st
 To convert back to the original image I used the class example as well. In addition I write down on the image frame the text for the curvatures, offset and which direction the car is turning :smile:
 For that I used the second coefficient **b** of the line curvature polynomial `Ay² + by + c`.
 Check the `MyHelpter.py` in the method `back_to_original` at the line 256!
+![alt text][image9]
 
 ---
 
